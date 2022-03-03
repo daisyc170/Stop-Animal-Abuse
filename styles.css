@@ -6,3 +6,14 @@ body {
   body {
     background-color: #FDEBD0  
 }
+<source="sources.html.php">
+<div class="container">
+<h2>Subscribe for more Information</h2>
+<p></p>
+</div>
+<div class="container" style="background-color:#FDEBD0 ">
+<input type= "text" placeholder="Name" name="name" required>
+<label>
+<input type="checkbox" checked="checked" name="Subscribe"> For More Information
+</label>
+</div>
