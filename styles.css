@@ -6,6 +6,13 @@ body {
   body {
     background-color: #fff5e6  
 }
+
+input [type=submit] {
+  background-color: #D4692F
+  
+}
+
+/*
 <Source="Sources.html.php">
 <div class="container">
 <h2>Subscribe for more Information</h2>
@@ -17,3 +24,4 @@ body {
 <input type="checkbox" checked="checked" name="Subscribe"> For More Information
 </label>
 </div>
+*/

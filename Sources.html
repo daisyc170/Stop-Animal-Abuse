@@ -1,19 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-  <h2>Sign Up!</h2>
+  <iframe frameborder="0" height="50px" width="100%" scr="Sources.html"></iframe>
+  <h2>Survey!</h2>
 <form 
 action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail"
  method="post">
-  <label for="fname">First name & Last name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Email:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <button type="submit">Submit</button>
-  <input type="submit" value="Submit">
-  <input name="send-to" value="dcortazar@brooklynsteamcenter.org" hidden>
-</form> 
+ <label>Email:</label>
+ <input name="email">
+ <br/>
+ <label>Name:</label>
+ <input name="name">
+ <br/>
+ <br />
+ <label>Have you seen any type of Animal Abuse?</label>
+ <input type="radio" name="type" value="yes"> <label>Yes</label>
+ <input type="radio" name="type" value="no"> <label>No</label>
+ <br />
+ <br />
+ <label>If you ever encounter to animal abuse would you speak out or ask for help?</label>
+ <input type="radio" name="encounter" value="yes"> <label>Yes</label>
+ <input type="radio" name="encounter" value="no"> <label>No</label>
+ <br />
+ <br />
+ <label>Would you like to make a change for animals?</label>
+ <input type="radio" name="change" value="yes"> <label>Yes</label>
+ <input type="radio" name="change" value="no"> <label>No</label>
+ <br />
+ <br />
 
+ <label>Additional Comments:</label> <br />
+ <textarea name="comments"></textarea>
+ <br>
+ <input name="send-to" value="dcortazar@brooklynsteamcenter.org" hidden>
+ <input type="Submit">
+</form> 
+}
+
+input [type=submit]:active {
+  background-color: #FDDFD0; 
+}
 <p>Sign up for more news on our page and new articles every week. </p>
 </body>
 <head>
